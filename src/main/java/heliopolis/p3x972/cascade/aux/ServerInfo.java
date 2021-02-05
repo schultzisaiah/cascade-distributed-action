@@ -5,7 +5,7 @@
  * Reproduction without the written authorization of TRGR is prohibited.
  */
 
-package com.heliopolis.p3x972.cascade.aux;
+package heliopolis.p3x972.cascade.aux;
 
 import java.net.InetAddress;
 

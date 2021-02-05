@@ -1,14 +1,14 @@
-package com.heliopolis.p3x972.cascade;
+package heliopolis.p3x972.cascade;
 
 import static java.lang.String.format;
 import static java.util.Optional.ofNullable;
 import static org.apache.commons.lang3.StringUtils.compare;
 
-import com.heliopolis.p3x972.cascade.aux.ServerInfo;
-import com.heliopolis.p3x972.cascade.bean.CascadeResult;
-import com.heliopolis.p3x972.cascade.bean.CascadeResults;
-import com.heliopolis.p3x972.cascade.config.CascadeConfig;
-import com.heliopolis.p3x972.cascade.config.HttpMethod;
+import heliopolis.p3x972.cascade.aux.ServerInfo;
+import heliopolis.p3x972.cascade.bean.CascadeResult;
+import heliopolis.p3x972.cascade.bean.CascadeResults;
+import heliopolis.p3x972.cascade.config.CascadeConfig;
+import heliopolis.p3x972.cascade.config.HttpMethod;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
@@ -17,6 +17,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.stream.Collectors;
+
 import kong.unirest.Unirest;
 import kong.unirest.UnirestInstance;
 import org.apache.commons.lang3.StringUtils;

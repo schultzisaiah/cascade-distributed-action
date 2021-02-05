@@ -1,4 +1,4 @@
-package com.heliopolis.p3x972.cascade.config;
+package heliopolis.p3x972.cascade.config;
 
 import java.time.Duration;
 import java.util.function.Consumer;

@@ -1,4 +1,4 @@
-package com.heliopolis.p3x972.cascade.bean;
+package heliopolis.p3x972.cascade.bean;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
